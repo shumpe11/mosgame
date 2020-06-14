@@ -1,0 +1,59 @@
+
+body{
+	margin-top: 0;
+}
+
+header{
+	background-color: gray;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+
+
+#scoreArea{
+	text-align: center;
+}
+
+
+#scoreImage img{
+	width:50px;
+	height:50px;
+}
+
+#counter{
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+}
+#gameArea{
+	border: 2px solid black;
+	background-image: url("../img/dote_yuyake.jpg");
+	background-size: cover;
+	height:500px;
+	width:1000px;
+	margin:0 auto;
+}
+
+#mosquito{
+	width:55px;
+	height:55px;
+
+	position: absolute;
+	transition: .1s;
+  transform: translate(-50%, -50%);
+}
+
+#titleImage{
+	text-align:center;
+}
+
+#gameArea__gameStart{
+	text-align: center;
+	margin: 0 auto;
+}
